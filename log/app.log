@@ -1,9 +1,0 @@
-[SYS] 2025/06/18 12:50:11 Starting server on :8000
-[SYS] 2025/06/18 12:50:17 Shutdown Initiated
-[SYS] 2025/06/18 12:50:17 Server shutdown
-[SYS] 2025/06/18 12:50:26 Starting server on :8000
-[INFO] 2025/06/18 12:50:32 127.0.0.1:37392 GET 200 /contact http://localhost:8000/
-[INFO] 2025/06/18 12:50:32 127.0.0.1:37392 GET 304 /contact http://localhost:8000/
-[INFO] 2025/06/18 12:50:32 127.0.0.1:37392 GET 304 /contact http://localhost:8000/
-[SYS] 2025/06/18 12:50:35 Shutdown Initiated
-[SYS] 2025/06/18 12:50:35 Server shutdown
