@@ -1,0 +1,11 @@
+input{
+  display: block;
+}
+
+label{
+  margin-top: 1rem;
+}
+
+form{
+  margin-left: 1rem;
+}

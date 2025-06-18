@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" 
+    name="htmx-config"
+    content='{
+      "responseHandling": [
+        {"code":"400", "swap":true},
+        {"code":"200", "swap":true}
+      ]
+    }'
+  />
+  <title>Contact</title>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/style.css" rel="stylesheet">
+  <script src="static/js/htmx.min.js"></script>
+</head>
+<body>
+  <form
+    hx-post="/contact"
+    hx-target="#upload-status"
+    hx-swap="innerHTML"
+    hx-swap-oob="true"
+  >
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Name" required/>
+    <label for="name">Email</label>
+    <input type="text" id="email" name="email" placeholder="Email" required/>
+    <label for="name">Subject</label>
+    <input type="text" id="subject" name="subject" placeholder="Subject" required/>
+    <label for="name">Message</label>
+    <input type="text" id="message" name="message" placeholder="Message" required/>
+    <button type="submit">Submit</button>
+  </form>
+
+  <div id="upload-status" hx-swap-oob="true"></div>
+</body>
+</html>
+
